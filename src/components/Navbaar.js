@@ -29,7 +29,7 @@ const Navbaar = () => {
                             <MenuIcon />
                         </IconButton>
                         <Typography variant="h4" component="div" sx={{ flexGrow: 1 }} style={{ textAlign: "center" }}>
-                            Redux TO-DO App
+                           saleforce Todo APP assignment 
                         </Typography>
                     </Toolbar>
                 </AppBar>
