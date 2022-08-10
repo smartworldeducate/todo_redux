@@ -28,7 +28,7 @@ const Home = () => {
                     <div className="todo col-lg-5 mx-auto d-flex justify-content-between align-items-center">
                         <input name='task' value={data} onChange={(e)=>setData(e.target.value)} className='form-control' />
                         <Button variant='contained'
-                        onClick={()=>addData()}
+                        onClick={addData}
                          style={{ background: "#ee5253" }} className='mx-2'>
                             <AddIcon />
                         </Button>
